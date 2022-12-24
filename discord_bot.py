@@ -4,7 +4,6 @@ load_dotenv()
 import discord
 import os
 
-
 client = discord.Client()
 
 @client.event

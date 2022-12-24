@@ -9,4 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - uses: actions/setup-python@v1
       - run: python3 discord_bot.py
+      - run: pip install python-dotenv
