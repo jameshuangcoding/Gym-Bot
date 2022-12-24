@@ -1,0 +1,12 @@
+name: "Creatine"
+on:
+  schedule:
+  # - cron: "0 16 * * *"
+  - cron: "* * * * *"
+
+jobs:
+  notification:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: python3 discord_bot.py
