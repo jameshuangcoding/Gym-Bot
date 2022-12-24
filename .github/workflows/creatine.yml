@@ -2,7 +2,7 @@ name: "Creatine"
 on:
   schedule:
   # - cron: "0 16 * * *"
-  - cron: "* * * * *"
+    - cron: "* * * * *"
 
 jobs:
   notification:
