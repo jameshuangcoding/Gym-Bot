@@ -12,6 +12,5 @@ jobs:
       - uses: actions/setup-python@v1
       - run: pip install python-dotenv
       - run: pip install discord
-      - run: pip install os
       - run: python3 discord_bot.py
 
