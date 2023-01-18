@@ -19,9 +19,7 @@ async def on_ready():
 async def on_message(message):
     if message.author == client.user:
         return    
-    
-    if message.author.id == 196331016225292289:
-        await message.channel.send("Hello")
+
         
 
 
